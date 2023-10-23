@@ -48,3 +48,11 @@ form.custom.radio_round .custom.checkbox.checked:before {
 form.custom .custom.dropdown .current, form.custom .custom.dropdown .selector {
     cursor: pointer
 }
+
+li.footer_sitemap_link_li {
+    margin-bottom: 7px;
+}
+
+#footer_final {
+    height: auto;
+}
