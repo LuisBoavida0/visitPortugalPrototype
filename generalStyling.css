@@ -21,3 +21,30 @@
     margin-right: -16px;
     margin-top: 0px;
 }
+
+form.custom.radio_round .custom.checkbox {
+    border-radius: 3px;
+}
+
+form.custom.radio_round .custom.checkbox.checked:before {
+    border-radius: 2px;
+}
+
+.custom.radio_round input, .custom.radio_round .custom.checkbox {
+    cursor: pointer;
+}
+
+.filters-explorar-Portugal label.sugestoes-costum-radio {
+    margin-bottom: 0;
+    line-height: inherit;
+    font-family: inherit;
+    color: inherit;
+    font-weight: inherit;
+    display: inline;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+form.custom .custom.dropdown .current, form.custom .custom.dropdown .selector {
+    cursor: pointer
+}
