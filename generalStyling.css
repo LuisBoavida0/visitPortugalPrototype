@@ -87,3 +87,23 @@ li.footer_sitemap_link_li {
     width: 12px;
     visibility: hidden;
 }
+
+.custom-radio-child-size .custom.radio {
+    width: 9px;
+    height: 9px;
+}
+
+form.custom .custom.radio, .contact-form .form-item-assunto label.option, .form-item-termos-e-condicoes .form-radios label {
+    cursor: pointer;
+}
+
+label[for=edit-termos-e-condicoes] {
+    text-decoration: auto;
+    font-family: gothamXNarrow-medium;
+    font-size: 17px;
+    color: #3A3535;
+}
+
+.form-item-termos-e-condicoes label {
+    text-decoration: auto;
+}
