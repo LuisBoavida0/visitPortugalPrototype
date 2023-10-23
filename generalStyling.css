@@ -10,3 +10,14 @@
 #block-views-highlights-slideshow-block .views-content-counter {
     cursor: default;
 }
+
+.slideshow_know_more_btn a, .slideshow_know_more_btn a:visited {
+    height: 36px;
+    line-height: 22px;
+    display: block;
+    margin: 0px;
+    width: 111px;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-top: 0px;
+}
