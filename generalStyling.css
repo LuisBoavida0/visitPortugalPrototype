@@ -6,3 +6,7 @@
 .widget-container-header-left {
     width: 100% !important;
 }
+
+#block-views-highlights-slideshow-block .views-content-counter {
+    cursor: default;
+}
