@@ -78,3 +78,12 @@ li.footer_sitemap_link_li {
     background-size: cover;
     background-position: center;
 }
+
+.sobre-portugal-mapaslist-block-detail-text {
+    width: 250px;
+}
+
+.novo-know-more .novo-know-more-btn {
+    width: 12px;
+    visibility: hidden;
+}
