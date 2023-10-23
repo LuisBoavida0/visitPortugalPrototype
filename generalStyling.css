@@ -2,3 +2,7 @@
     cursor: default;
     user-select: none;
 }
+
+.widget-container-header-left {
+    width: 100% !important;
+}
