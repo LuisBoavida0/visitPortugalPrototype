@@ -107,3 +107,8 @@ label[for=edit-termos-e-condicoes] {
 .form-item-termos-e-condicoes label {
     text-decoration: auto;
 }
+
+.gal_list {
+    cursor: pointer;
+    padding-top: 20px;
+}
