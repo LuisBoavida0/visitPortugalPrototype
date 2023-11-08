@@ -112,3 +112,7 @@ label[for=edit-termos-e-condicoes] {
     cursor: pointer;
     padding-top: 20px;
 }
+
+.nav ul.menu li.menu-807, .nav ul.menu li.menu-808 {
+    display: none;
+}
