@@ -117,6 +117,10 @@ label[for=edit-termos-e-condicoes] {
     display: none;
 }
 
+.bi-portugal-map-title img {
+    margin-bottom: 30px;
+}
+
 /* Combining media query expressions */
 @media only screen and (min-width: 767px) and (max-width: 1204px)  {
     body {
