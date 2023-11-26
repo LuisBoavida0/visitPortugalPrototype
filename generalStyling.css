@@ -153,12 +153,16 @@ label[for=edit-termos-e-condicoes] {
     min-height: 276px;
 }
 
-#primary-menu-bar ul.menu li.menu-805 a, #primary-menu-bar ul.menu li.menu-809 a {
+#primary-menu-bar ul.menu li.menu-805 a, #primary-menu-bar ul.menu li.menu-809 a, #primary-menu-bar ul.menu li.menu-810 a {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     margin-left: 5px;
 }    
+
+.menu-810 {
+    margin-right: 5px !important;
+}
 
 #primary-menu-bar ul.menu li.menu-809 a {
     margin-right: 7px;
