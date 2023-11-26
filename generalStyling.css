@@ -1,4 +1,4 @@
-.menu-800, .menu-802, .menu-803 {
+.menu-800, .menu-802, .menu-803, .menu-801, .menu-799, .menu-804 {
     cursor: default;
     user-select: none;
 }
@@ -121,6 +121,103 @@ label[for=edit-termos-e-condicoes] {
     margin-bottom: 30px;
 }
 
+#primary-menu-bar {
+    max-width: none;
+}
+
+#primary-menu-bar .menu-wrapper {
+    padding: 0 15px;
+}
+
+#primary-menu-bar ul.menu li.menu-218 a {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.menu-218 img {
+    margin-top: 9px;
+    width: 160px;
+}
+
+#primary-menu-bar a > span {
+    background-color: inherit !important;
+}
+
+#sp_submenu_wrapper img { 
+    display: none;
+}
+
+#sp_submenu_wrapper {
+    min-height: 276px;
+}
+
+#primary-menu-bar ul.menu li.menu-805 a, #primary-menu-bar ul.menu li.menu-809 a {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}    
+
+#primary-menu-bar ul.menu li.menu-809 a {
+    margin-right: 7px;
+}
+
+#rp_submenu_wrapper { 
+    min-height: 92px;
+}
+
+.languages-menu {
+    position: relative;
+}
+
+.languages-menu > div {
+    display: none;
+    position: absolute;
+    background-color: #2F2F2F;
+    right: 0;
+    padding-left: 2px;
+}
+
+.languages-menu > div a {
+    height: 43px !important;
+    font-size: 14px;
+    margin-right: 10px !important;
+}
+
+.languages-menu:hover > div {
+    display: block;
+}
+
+.submenu_destinos, .submenu_sobre_portugal, .exp-bgc, .e-bgc, .submenu_recordar_e_partilhar {
+    background-color: #2F2F2F;
+}
+
+#sp_submenu_wrapper li, #ds_submenu_wrapper li, #exp_submenu_wrapper li, #e_submenu_wrapper li, #rp_submenu_wrapper li {
+    border-bottom: 0;
+}
+
+.sprite-icons-mapa_pt, .sprite-icons-mapa_porto_norte, .sprite-icons-mapa_madeira, .sprite-icons-mapa_lisboa, .sprite-icons-mapa_centro, .sprite-icons-mapa_algarve, .sprite-icons-mapa_alentejo, .sprite-icons-mapa_acores {
+    background-image: url("mapa.png")
+}
+
+#primary-menu-bar-wrapper {
+    position: fixed;
+    width: 100vw;
+}
+
+#main-clipping {
+    margin-top: 54px;
+}
+
+#explorar_portugal {
+    background-color: inherit;
+}
+
+div#page.container.page {
+    margin-top: 60px;
+}
 /* Combining media query expressions */
 @media only screen and (min-width: 767px) and (max-width: 1204px)  {
     body {
